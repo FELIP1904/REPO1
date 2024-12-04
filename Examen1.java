@@ -30,6 +30,13 @@ public class Examen1 {
               
               switch(desicion){
                   case 1 -> {
+                      System.out.println("introduce un numero");
+                      num1=sc.nextInt();
+                      System.out.println("introduce otro numero");
+                      num2=sc.nextInt();
+                      resul=num1+num2;
+                      System.out.println("resultado de la suma es: " +resul);
+                      
                }
                          case 2 -> {
                }
