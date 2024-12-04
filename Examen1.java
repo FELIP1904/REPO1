@@ -36,6 +36,7 @@ public class Examen1 {
                               System.out.println("introduce otro numero");
                              num2=sc.nextInt();
                              resul=num1-num2;
+                             System.out.println("el resultado de la resta es: " +resul);
                              
                }
                          case 3 -> {
