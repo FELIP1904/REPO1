@@ -16,6 +16,9 @@ public class Examen1 {
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
        int desicion=0;
+       double num1=0;
+       double num2=0;
+       double resul=0;
        do{
            System.out.println("menu");
            System.out.println("1. Sumar dos números.");
@@ -24,6 +27,7 @@ public class Examen1 {
               System.out.println("4. Dividir dos números.");
               System.out.println("5. Salir.");
               desicion=sc.nextInt();
+              
               switch(desicion){
                   case 1 -> {
                }
