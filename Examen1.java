@@ -17,11 +17,16 @@ public class Examen1 {
        Scanner sc = new Scanner(System.in);
        int desicion=0;
        double num1=0;
+<<<<<<< HEAD
 
        double num2=0;
        double resul=0;
 
 
+=======
+double num2=0;
+double resul=0;
+>>>>>>> dividir
 
        do{
            System.out.println("menu");
@@ -61,7 +66,22 @@ public class Examen1 {
                              
                }
                          case 4 -> {
-               }
+                              System.out.println("Ingrese el primer número (dividendo): ");
+         num1 = sc.nextDouble();
+
+        System.out.println("Ingrese el segundo número (divisor): ");
+        num2 = sc.nextDouble();
+
+        
+        if (num2 == 0) {
+            System.out.println("Error: No se puede dividir entre cero.");
+        } else {
+            resul = num1 / num2;
+            System.out.println("El resultado de la división es: " + resul);
+            
+            
+        }
+                         }
                          case 5 -> System.out.println("cerrando programa...");
                          default -> System.out.println("desicion erronea");
                              
