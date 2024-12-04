@@ -17,8 +17,12 @@ public class Examen1 {
        Scanner sc = new Scanner(System.in);
        int desicion=0;
        double num1=0;
+
        double num2=0;
        double resul=0;
+
+
+
        do{
            System.out.println("menu");
            System.out.println("1. Sumar dos números.");
@@ -48,6 +52,13 @@ public class Examen1 {
                              
                }
                          case 3 -> {
+                             System.out.println("introduce un numero");
+                             num1=sc.nextInt();
+                             System.out.println("introduce otro numero");
+                             num2=sc.nextInt();
+                             resul=num1*num2;
+                             System.out.println("el resultado de la multiplicacion es: " +resul);
+                             
                }
                          case 4 -> {
                }
