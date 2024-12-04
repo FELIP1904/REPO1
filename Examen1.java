@@ -47,6 +47,8 @@ double resul=0;
             System.out.println("Error: No se puede dividir entre cero.");
         } else {
             resul = num1 / num2;
+            System.out.println("El resultado de la división es: " + resul);
+            
             
         }
                          }
